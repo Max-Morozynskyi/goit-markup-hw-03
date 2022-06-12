@@ -1,0 +1,192 @@
+/* Объявим переменные */
+:root {
+    /* text clrs */
+--main-clr: #2196F3;
+--title-color: #212121;
+--text-color: #757575;
+--foot-adress: rgba(255, 255, 255, 0.6);
+--white-clr: white;
+    /* bg clrs */
+--bg-clr-main: #2F303A;
+--bg-clr-secondary: #F5F4FA;
+    /* others */
+--hover-btn: #188CE8; 
+--box-height: 1.16;
+--ltr-spasing: 0.03em;
+}
+
+/* глобальныe стилu */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+    color: var(--text-color);
+}
+.nopoint {
+    list-style: none;
+}
+/* link start */
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+.nav-link.link-active,
+.link:hover,
+.link:focus {
+    color: var(--main-clr);
+}
+/* buttons start */
+.button {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    
+    cursor: pointer;
+}
+.button:hover,
+.button:focus {
+    color: var(--white-clr);
+    background-color: var(--hover-btn);
+}
+.btn-active {
+    color: var(--white-clr);
+    background-color: var(--main-clr);
+}
+.btn-passive {
+    color: var(--title-color);
+    background-color: var(--bg-clr-secondary);
+}
+/* buttons end */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.title {    
+    color: var(--title-color);
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: var(--ltr-spasing);
+
+    color: var(--main-clr);
+}
+
+/* локальные стили */
+
+/* header */
+.head-studio {
+    color: black;
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: var(--box-height);
+    
+    letter-spacing: 0.02em;
+}
+.main-nav-link {
+    color: var(--title-color);
+}
+/* hero section */
+.hero {
+    background-color: var(--bg-clr-main);
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--white-clr);
+}
+.hero-btn {
+    line-height: 1.88;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+/* qualities section */
+.title-qualities {
+    font-size: inherit;
+    line-height: var(--box-height);
+    letter-spacing: var(--ltr-spasing);
+    text-transform: uppercase;
+}
+.text-qualities {
+    line-height: 1.71;
+    letter-spacing: var(--ltr-spasing);
+}
+/* photos section */
+.photos > .title,
+.workers > .title {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: var(--ltr-spasing);
+}
+/* workers section */
+.workers {
+    background-color: var(--bg-clr-secondary);
+}
+.card {
+    background-color: var(--white-clr);
+    text-align: center;
+    font-size: 16px;
+    line-height: var(--box-height);
+    letter-spacing: var(--ltr-spasing);
+}
+.name {
+    font-weight: 500;
+    font-size: inherit;
+    line-height: 1.19;
+    letter-spacing: var(--ltr-spasing);
+}
+/* footer section */
+.footer {
+    background-color: var(--bg-clr-main);
+}
+.bottom-studio {
+    color: var(--white-clr);
+}
+.contact-info {
+    font-style: inherit;
+    font-size: 14px;
+    line-height: 1.71;    
+    letter-spacing: var(--ltr-spasing);
+}
+.contact-address {
+    color: var(--white-clr);
+}
+.contact-link {
+    color: var(--foot-adress);
+}
+
+/* END OF INDEX.HTML */
+
+
+/* START PORTFOLIO.HTML */
+
+.project-name {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.project-descrption {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: var(--ltr-spasing);
+}
