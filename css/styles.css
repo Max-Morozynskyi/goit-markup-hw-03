@@ -290,6 +290,8 @@ img {
 /* START PORTFOLIO.HTML */
 
 .project-name {
+  margin-bottom: 4px;
+
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -298,4 +300,23 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: var(--ltr-spasing);
+}
+.ptf-card {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
+}
+.portfolio {
+  --items: 3;
+}
+.filter-btn-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.filter-btn:not(:last-child) {
+  margin-right: 8px;
+}
+.portfolio .button {
+  padding: 6px 22px;
 }
