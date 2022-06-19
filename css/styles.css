@@ -172,6 +172,8 @@ img {
 
 /* hero section */
 .hero {
+  padding: 200px 0;
+
   text-align: center;
 
   background-color: var(--bg-clr-main);
@@ -321,4 +323,6 @@ img {
 }
 .portfolio .button {
   padding: 6px 22px;
+
+  line-height: 1.6;
 }
