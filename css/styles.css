@@ -12,6 +12,7 @@
   /* others */
   --hover-btn: #188ce8;
   --frame-clr: #ececec;
+  --frame-card: #eeeeee;
   --box-height: 1.16;
   --ltr-spasing: 0.03em;
   --indent: 30px;
@@ -188,6 +189,7 @@ img {
   color: var(--white-clr);
 }
 .hero-btn {
+  min-width: 200px;
   padding: 10px 32px;
 
   line-height: 1.88;
@@ -303,7 +305,7 @@ img {
 }
 .ptf-card {
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--frame-card);
   border-top: none;
 }
 .portfolio {
